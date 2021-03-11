@@ -8,7 +8,7 @@ title: RUBI
 disqusShortname: hugo-theme-stack
 
 # GA Tracking ID
-googleAnalytics:
+googleAnalytics: G-E4H3VBDC8D
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn
@@ -34,7 +34,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 👩‍🦳
+        emoji: 
         subtitle: Hate Coding
         avatar:
             local: true
@@ -110,29 +110,6 @@ menu:
           weight: -100
           pre: home
 
-        - identifier: about
-          name: About
-          url: /about/
-          weight: -90
-          pre: user
-
-        - identifier: archives_1
-          name: PYTHON
-          url: /algorithm/
-          weight: -80
-          pre: archives
-
-        - identifier: archives_2
-          name: WEB
-          url: /python/
-          weight: -70
-          pre: archives
-
-        - identifier: archives_3
-          name: ALGORITHM
-          url: /algorithm/
-          weight: -60
-          pre: archives
 
 related:
     includeNewer: true
