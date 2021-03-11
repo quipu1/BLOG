@@ -1,9 +1,5 @@
 {{- $ThemeVersion := "2.2.0" -}}
 <footer class="site-footer">
-    <script src="https://utteranc.es/client.js" repo="quipu1/blog-comments" issue-term="pathname" theme="github-light"
-        crossorigin="anonymous" async>
-        </script>
-
     <section class="copyright">
         &copy; 
         {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
