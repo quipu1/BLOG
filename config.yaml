@@ -1,8 +1,8 @@
-baseurl: https://example.com
+baseurl: https://quipu1.github.io/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: RUBI
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -26,7 +26,7 @@ params:
     favicon:
 
     footer:
-        since: 2020
+        since: 2021
         customText:
 
     dateFormat:
@@ -34,11 +34,11 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 
+        subtitle: Hate Coding
         avatar:
             local: true
-            src: img/avatar.png
+            src: img/pan.jpg
 
     article:
         math: false
@@ -109,6 +109,30 @@ menu:
           url: /
           weight: -100
           pre: home
+
+        - identifier: about
+          name: About
+          url: /about/
+          weight: -90
+          pre: user
+
+        - identifier: archives_1
+          name: PYTHON
+          url: /algorithm/
+          weight: -80
+          pre: archives
+
+        - identifier: archives_2
+          name: WEB
+          url: /python/
+          weight: -70
+          pre: archives
+
+        - identifier: archives_3
+          name: ALGORITHM
+          url: /algorithm/
+          weight: -60
+          pre: archives
 
 related:
     includeNewer: true
