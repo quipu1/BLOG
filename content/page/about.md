@@ -1,17 +1,17 @@
 ---
 title: About
-description: Hugo, the world's fastest framework for building websites
-date: '2019-02-28'
+description: Greeting & What will post
 aliases:
   - about-us
   - about-hugo
   - contact
 license: CC BY-NC-ND
-lastmod: '2020-10-09'
+lastmod: '2021-03-12'
 menu:
     main: 
-        weight: -90
+        weight: -70
         pre: user
 ---
 
+![img](./page/deleting.gif)
 
