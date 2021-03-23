@@ -22,7 +22,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: /assets/favicons/img_3_zT0_4.ico
 
     footer:
         since: 2021
