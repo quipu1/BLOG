@@ -18,7 +18,7 @@
 {{- end -}}
 
 {{ with .Site.Params.favicon }}
-<link rel="shortcut icon" href="/assets/favicons/img_3_zT0_3.ico">
+<link rel="shortcut icon" href="{{ . }}" />
 {{ end }}
 
 {{- template "_internal/google_analytics_async.html" . -}}
