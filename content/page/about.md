@@ -1,6 +1,6 @@
 ---
 title: About
-description: Greeting & What will post
+description: 
 aliases:
   - about-us
   - about-hugo
@@ -13,5 +13,11 @@ menu:
         pre: user
 ---
 
-![img](./page/deleting.gif)
+![img](./page/computer.gif)
+
+
+
+```markdown
+
+```
 
