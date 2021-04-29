@@ -15,9 +15,9 @@ menu:
 
 ![img](./page/computer.gif)
 
-```
+-----
 
-```
+
 
 ✨***Name*** ✨
 
